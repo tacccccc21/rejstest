@@ -39,6 +39,42 @@ const ichika = {
   color: 'pink',
   number: '1',
   uesugiCall: () => {
+    console.log('フータローくん')
+  }
+};
+
+const nino = {
+  size: 'big',
+  color: 'pink',
+  number: '2',
+  uesugiCall: () => {
+    console.log('あんた')
+  }
+};
+
+const miku = {
+  size: 'big',
+  color: 'pink',
+  number: '1',
+  uesugiCall: () => {
+    console.log('フータロー')
+  }
+};
+
+const yothuba = {
+  size: 'big',
+  color: 'pink',
+  number: '1',
+  uesugiCall: () => {
+    console.log('上杉さん')
+  }
+};
+
+const ituki = {
+  size: 'big',
+  color: 'red',
+  number: '5',
+  uesugiCall: () => {
     console.log('上杉くん')
   }
 };
@@ -46,7 +82,7 @@ const ichika = {
 
 
 document.getElementsByTagName('button')[0].addEventListener('click', ()=> {
-  window.alert('長女')
+  window.alert(ichika.color)
 });
 
 document.getElementsByTagName('button')[1].addEventListener('click', ()=> {
@@ -62,5 +98,5 @@ document.getElementsByTagName('button')[3].addEventListener('click', ()=> {
 });
 
 document.getElementsByTagName('button')[4].addEventListener('click', ()=> {
-  window.alert('五女')
+  window.alert(ituki.color)
 });
