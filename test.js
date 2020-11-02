@@ -23,16 +23,16 @@ let five = ['いちか','にの','みく','よつば','いつき'];
 
 
 // 関数
-const sister = (arg) => {
+const sister = () => {
   //  ここに命令をかく
-  if(five.length === arg){
+  if(five.length === 5){
     console.log('中野姉妹');
   } else {
   console.log('五つ子じゃないです');
   }
 };
 
-sister(5);
+sister();
 
 const ichika = {
   size: 'big',
